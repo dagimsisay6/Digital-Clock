@@ -1,0 +1,9 @@
+ Digital Clock with Alarm  
+A stylish **digital clock** with AM/PM format and an **alarm feature**, built using **HTML, CSS, and JavaScript**.
+
+     Features
+ **Real-time Clock** – Updates every second  
+ **12-Hour Format with AM/PM** – Displays time in a readable format  
+ **Alarm Functionality** – Users can set an alarm, and it plays a sound when the time matches  
+ **Date Display** – Shows the current date below the clock  
+ **Modern UI** – Beautiful gradient background with a glassmorphism effect  
