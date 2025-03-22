@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Digital Clock</title>
+</head>
+<body>
+    <div class="hero" id="background">
+        <div class="container">
+            <div class="clock" id="clock">
+                <span id="hrs" class="digit">00</span>
+                <span>:</span>
+                <span id="min" class="digit">00</span>
+                <span>:</span>
+                <span id="sec" class="digit">00</span>
+                <span id="ampm" class="ampm">AM</span>
+            </div>
+            <div class="date" id="date"></div>
+            <div class="alarm-container">
+                <input type="time" id="alarmTime">
+                <button id="setAlarm">Set Alarm</button>
+            </div>
+            <audio id="alarmSound" src="alarm.mp3"></audio>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
